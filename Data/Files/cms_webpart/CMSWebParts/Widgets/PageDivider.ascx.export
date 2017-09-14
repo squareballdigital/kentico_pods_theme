@@ -1,0 +1,5 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="PageDivider.ascx.cs" Inherits="CMSWebParts_Widgets_PageDivider" %>
+
+<div class="page-divider">
+    <span></span>
+</div>

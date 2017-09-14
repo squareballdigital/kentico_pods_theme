@@ -1,0 +1,15 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="HeroImageLeft.ascx.cs" Inherits="CMSWebParts_Widgets_HeroImageLeft" %>
+
+<!-- Hero-->
+<section class="hero dark vbottom">
+    <!-- Background-->
+    
+    <asp:Literal ID="ltrBackgroundImage" runat="server" Mode="PassThrough"></asp:Literal>
+    <div class="container">
+        <!-- Content-->
+        <div class="content">
+            <h1><asp:Literal runat="server" ID="ltrTextContent"></asp:Literal></h1>
+            <p><asp:Literal runat="server" ID="ltrTextSubContent"></asp:Literal></p>
+        </div>
+    </div>
+</section>

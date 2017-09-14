@@ -1,0 +1,27 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="SiteMenuClassic.ascx.cs" Inherits="CMSWebParts_Bone_SiteMenuClassic" %>
+
+            <CMS:CMSRepeater ID="rptMenu" runat="server" OnItemDataBound="rptMenu_ItemDataBound">
+                <HeaderTemplate>
+                    <ul class="navbar-classic">
+                </HeaderTemplate>
+                <ItemTemplate>
+                    <li>
+                        <a href='<%# Eval("NodeAliasPath") %>'><%# Eval("NodeName") %> </a>
+                        <CMS:CMSRepeater runat="server" ID="rptSubMenu">
+                            <HeaderTemplate>
+                                <ul class="dropdown">
+                            </HeaderTemplate>
+                            <ItemTemplate>
+                                <li><a href='<%# Eval("NodeAliasPath") %>'><%# Eval("NodeName") %></a></li>
+                            </ItemTemplate>
+                            <FooterTemplate>
+                                </ul>
+                            </FooterTemplate>
+                        </CMS:CMSRepeater>
+                    </li>
+                </ItemTemplate>
+                <FooterTemplate>
+                    </ul>
+                </FooterTemplate>
+            </CMS:CMSRepeater>
+          <div class="mobile-nav"> </div>

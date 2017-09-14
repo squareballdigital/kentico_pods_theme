@@ -1,0 +1,14 @@
+﻿<media_library version="10.0">
+  <NewDataSet>
+    <media_library>
+      <LibraryID>1</LibraryID>
+      <LibraryName>pods</LibraryName>
+      <LibraryDisplayName>Default</LibraryDisplayName>
+      <LibraryFolder>Default</LibraryFolder>
+      <LibraryAccess>0</LibraryAccess>
+      <LibrarySiteID>1</LibrarySiteID>
+      <LibraryGUID>8b85bfa4-2af2-4ed0-aa89-d8dde616cdc6</LibraryGUID>
+      <LibraryLastModified>2016-08-16T18:31:08.8410761+07:00</LibraryLastModified>
+    </media_library>
+  </NewDataSet>
+</media_library>

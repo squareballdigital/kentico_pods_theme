@@ -1,0 +1,39 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="ContactDetails.ascx.cs" Inherits="CMSWebParts_Widgets_ContactDetails" %>
+
+      <section>
+        <div class="container">
+          <!-- Portfolio grid-->
+          <div class="grid contact-container">
+            <div class="grid-sizer"></div>
+            <div class="grid-item contact-form" data-action='<%# "/" + CurrentSite.SiteName + "/services/contact.ashx" %>'>
+              <div class="inner">
+                <form id="form" action="/php/mail.php" name="form">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <input placeholder="* Your name" name="name" required type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                      <input placeholder="* E-mail" name="email" required type="email" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                      <input placeholder="Phone number" name="phone" type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                      <input placeholder="Website" name="website" type="text" class="form-control">
+                    </div>
+                    <div class="col-md-12">
+                      <textarea placeholder="* Message" name="message" required class="form-control"></textarea>
+                      <button id="send" type="submit" class="btn btn-default">Send</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="grid-item contact-details vcenter">
+              <div class="inner">
+                <asp:Literal ID="ltrTextContent" runat="server" Mode="PassThrough"></asp:Literal>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>

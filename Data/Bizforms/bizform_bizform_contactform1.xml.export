@@ -1,0 +1,24 @@
+﻿<bizform_bizform_contactform1 version="10.0">
+  <NewDataSet>
+    <form_bone_contactform_1>
+      <ContactFormID>1</ContactFormID>
+      <Name>test</Name>
+      <Email>mgroberts@mail.com</Email>
+      <Phone>01748531613</Phone>
+      <Website>test.com</Website>
+      <Message>this is a test</Message>
+      <FormInserted>2016-08-16T15:26:57+07:00</FormInserted>
+      <FormUpdated>2016-08-16T15:26:57+07:00</FormUpdated>
+    </form_bone_contactform_1>
+    <form_bone_contactform_1>
+      <ContactFormID>2</ContactFormID>
+      <Name>Hoang Phan</Name>
+      <Email>dajkavn@gmail.com</Email>
+      <Phone>12312312</Phone>
+      <Website>hoangps.com</Website>
+      <Message>2321321313</Message>
+      <FormInserted>2017-01-18T11:38:24+07:00</FormInserted>
+      <FormUpdated>2017-01-18T11:38:24+07:00</FormUpdated>
+    </form_bone_contactform_1>
+  </NewDataSet>
+</bizform_bizform_contactform1>

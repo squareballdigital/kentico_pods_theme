@@ -1,0 +1,64 @@
+﻿<%@ WebHandler Language="C#" Class="Contact" %>
+
+using System;
+using System.Configuration;
+using System.Web;
+using System.Net.Mail;
+using System.Text.RegularExpressions;
+using CMS;
+using CMS.DataEngine;
+using CMS.OnlineForms;
+using CMS.OnlineForms.Web.UI;
+using CMS.SiteProvider;
+
+public class Contact : IHttpHandler {
+
+    public void ProcessRequest (HttpContext context) {
+        context.Response.ContentType = "text/plain";
+
+        string email = context.Request.QueryString["email"];
+        try
+        {
+            var test = new MailAddress(email);
+        }
+        catch (FormatException e)
+        {
+            context.Response.Write("invalid email address.");
+        }
+
+        BizFormInfo formObject = BizFormInfoProvider.GetBizFormInfo("ContactForm", SiteContext.CurrentSiteID);
+
+        if (formObject != null)
+        {
+            DataClassInfo formClass = DataClassInfoProvider.GetDataClassInfo(formObject.FormClassID);
+
+            string formClassName = formClass.ClassName;
+
+            // Creates a new data record for the form 
+            BizFormItem newFormItem = BizFormItem.New(formClassName);
+
+            newFormItem.SetValue("Name", context.Request.QueryString["name"]);
+            newFormItem.SetValue("Email", context.Request.QueryString["email"]);
+            newFormItem.SetValue("Phone", context.Request.QueryString["phone"]);
+            newFormItem.SetValue("Website", context.Request.QueryString["website"]);
+            newFormItem.SetValue("Message", context.Request.QueryString["message"]);
+
+            // Saves the new form record into the database 
+            newFormItem.Insert();
+
+            BizFormInfoProvider.RefreshDataCount(formObject.FormName, formObject.FormSiteID);
+            var bizForm = new BizForm();
+            bizForm.SendNotificationEmail(formObject.FormSendFromEmail, formObject.FormSendToEmail, newFormItem, formObject);
+        }
+
+        context.Response.Write("sent");
+
+    }
+
+    public bool IsReusable {
+        get {
+            return false;
+        }
+    }
+
+}

@@ -1,0 +1,82 @@
+﻿<%@ WebHandler Language="C#" Class="Contact" %>
+
+using System;
+using System.Configuration;
+using System.Web;
+using System.Net.Mail;
+using System.Text.RegularExpressions;
+using CMS;
+
+public class Contact : IHttpHandler {
+
+    public void ProcessRequest (HttpContext context) {
+        context.Response.ContentType = "text/plain";
+        //context.Response.Write("Hello World");
+
+        //SmtpClient mailClient = new SmtpClient(context.Request.Form.Get("smtpMailServer"));
+        //var username = ConfigurationManager.AppSettings["mailUserName"];
+        //var password = ConfigurationManager.AppSettings["mailPassword"];
+
+        //SmtpClient mailClient = new SmtpClient("smtp.gmail.com");
+        //mailClient.Port = 587;
+        //mailClient.DeliveryMethod = SmtpDeliveryMethod.Network;
+        //mailClient.UseDefaultCredentials = false;
+        //mailClient.EnableSsl = true;
+        //mailClient.Credentials = new System.Net.NetworkCredential(username, password);
+
+        var sender = CMS.DataEngine.SettingsKeyInfoProvider.GetValue("CMSSMTPServerUser");
+
+        string subject = "A message from your site visitor " + context.Request.QueryString["name"];
+        string email = context.Request.QueryString["email"];
+        string messageBody = "";
+
+        messageBody += "<p>Visitor: " + context.Request.QueryString["name"] + "</p>\n";
+        messageBody += "<br>\n";
+        messageBody += "<p>Email Address: " + context.Request.QueryString["email"] + "</p>\n";
+        messageBody += "<br>\n";
+        messageBody += "<p>Phone Number: " + context.Request.QueryString["phone"] + "</p>\n";
+        messageBody += "<br>\n";
+        messageBody += "<p>Website: " + context.Request.QueryString["website"] + "</p>\n";
+        messageBody += "<br>\n";
+        messageBody += "<p>Message: " + context.Request.QueryString["message"] + "</p>\n";
+
+
+        MailMessage message = new MailMessage();
+
+        try{
+            var test = new MailAddress(email);
+        }catch (FormatException e) {
+            context.Response.Write(e.Message);
+        }
+
+        CMS.EmailEngine.EmailMessage emailMessage = new CMS.EmailEngine.EmailMessage();
+        emailMessage.EmailFormat = CMS.EmailEngine.EmailFormatEnum.Html;
+        emailMessage.From = sender;
+        emailMessage.Recipients = sender;
+        emailMessage.Subject = subject;
+        emailMessage.Body = messageBody;
+            
+        if(context.Request.Form.Get("stripHTML") == "true"){
+            message.IsBodyHtml = false;
+            messageBody = Regex.Replace(messageBody, "<.*?>", string.Empty);
+        }else{
+            message.IsBodyHtml = true;
+        }
+        message.Body = messageBody;
+
+        try{
+            CMS.EmailEngine.EmailSender.SendEmail(CMS.SiteProvider.SiteContext.CurrentSiteName, emailMessage);
+        }catch (SmtpException e) {
+            context.Response.Write("failed to email");
+        }
+        context.Response.Write("sent");
+
+    }
+
+    public bool IsReusable {
+        get {
+            return false;
+        }
+    }
+
+}

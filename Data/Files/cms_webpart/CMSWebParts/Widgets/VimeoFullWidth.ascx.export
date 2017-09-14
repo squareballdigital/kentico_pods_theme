@@ -1,0 +1,11 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="VimeoFullWidth.ascx.cs" Inherits="CMSWebParts_Widgets_VimeoFullWidth" %>
+
+<section>
+    <div class="container content intro">
+        <div class="row"> 
+            <div class="col-md-12">
+                <asp:Literal ID="ltrVimeoLightBox" runat="server" Mode="PassThrough"></asp:Literal>
+            </div>
+        </div>
+    </div>
+</section>

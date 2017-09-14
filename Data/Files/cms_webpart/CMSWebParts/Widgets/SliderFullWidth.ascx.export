@@ -1,0 +1,31 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="SliderFullWidth.ascx.cs" Inherits="CMSWebParts_Widgets_SliderFullWidth" %>
+
+<!-- Hero & Tera Slider-->
+<section class="slider">
+    
+        <cms:CMSRepeater runat="server" ID="rptSlides">
+            <HeaderTemplate>
+                <ul class="slides">
+            </HeaderTemplate>
+            <ItemTemplate>
+                
+                <li class="slide dark">
+                    <!-- Background-->
+                    <div class='hero fs <%# Eval("VerticalTextAlignment") %>'>
+                        <div style="background-image: url('<%# Eval("BackgroundImage") %>');" class="bg "></div>
+                        <div class='container <%# Eval("HorizontalTextAlignment") %>'>
+                        <!-- Content-->
+                        <div class="content">
+                            <%# Eval("TextContent") %>
+                        </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ItemTemplate>
+            <FooterTemplate>
+                </ul>
+            </FooterTemplate>
+        </cms:CMSRepeater>
+    
+</section>

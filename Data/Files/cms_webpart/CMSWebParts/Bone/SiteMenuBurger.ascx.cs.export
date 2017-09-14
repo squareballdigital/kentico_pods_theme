@@ -1,0 +1,42 @@
+﻿using CMS.DocumentEngine;
+using CMS.PortalEngine.Web.UI;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class CMSWebParts_Bone_SiteMenuBurger : CMSAbstractWebPart
+{
+    private const string MENU_ITEM_CLASS_NAME = "CMS.MenuItem";
+
+    protected override void OnLoad(EventArgs e)
+    {
+        base.OnLoad(e);
+        SetupControl();
+    }
+
+    protected void SetupControl()
+    {
+        if (!StopProcessing)
+        {
+            var menuItems = new TreeProvider().SelectNodes(CurrentSiteName, "/%", "en-us", true, null, null, null, 1);
+            rptMenu.DataSource = menuItems.Where(item => item.NodeLevel == 1 && item.ClassName == MENU_ITEM_CLASS_NAME);
+            rptMenu.DataBind();
+        }
+    }
+
+
+    protected void rptMenu_ItemDataBound(object sender, RepeaterItemEventArgs e)
+    {
+        if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)
+        {
+            var menu = (CMS.DocumentEngine.TreeNode)e.Item.DataItem;
+            var rptSubMenu = (Repeater)e.Item.FindControl("rptSubMenu");
+
+            rptSubMenu.DataSource = menu.Children.Where(node => node.ClassName == MENU_ITEM_CLASS_NAME);
+            rptSubMenu.DataBind();
+        }
+    }
+}

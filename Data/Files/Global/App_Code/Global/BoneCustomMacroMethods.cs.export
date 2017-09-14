@@ -1,0 +1,28 @@
+﻿using CMS;
+using CMS.MacroEngine;
+using CMS.DocumentEngine;
+using CMS.Helpers;
+using CMS.SiteProvider;
+using CMS.DataEngine;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+/// <summary>
+/// Summary description for PodsCustomMacroMethods
+/// </summary>
+[assembly: RegisterExtension(typeof(PodsCustomMacroMethods), typeof(string))]
+public class PodsCustomMacroMethods : MacroMethodContainer
+{
+    [MacroMethod(typeof(string), "Get Site Configurations", 1)]
+    [MacroMethodParam(0, "param1", typeof(string), "name of configuration")]
+    public static object GetSiteConfiguration(EvaluationContext context, params object[] parameters)
+    {
+        var siteConfiguration = new TreeProvider().SelectNodes("Pods.SiteConfigurations");
+        if (siteConfiguration == null || siteConfiguration.Count() == 0) return string.Empty;
+
+        var propertyValue = siteConfiguration.First().GetValue(parameters[0].ToString());
+        return propertyValue;
+    }
+}

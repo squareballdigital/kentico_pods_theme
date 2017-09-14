@@ -1,0 +1,24 @@
+﻿<cms_site version="10.0">
+  <NewDataSet>
+    <cms_site>
+      <SiteID>1</SiteID>
+      <SiteName>pods</SiteName>
+      <SiteDisplayName>pods.sbwebapps.co</SiteDisplayName>
+      <SiteDescription>Kentico theme built with content widgets</SiteDescription>
+      <SiteStatus>RUNNING</SiteStatus>
+      <SiteDomainName>pods.sbwebapps.co</SiteDomainName>
+      <SiteDefaultStylesheetID>1</SiteDefaultStylesheetID>
+      <SiteGUID>e608ddc8-6e79-4187-9458-2e88b0d1852e</SiteGUID>
+      <SiteLastModified>2016-08-17T15:32:36.983791+07:00</SiteLastModified>
+      <SiteIsOffline>false</SiteIsOffline>
+      <SiteOfflineMessage></SiteOfflineMessage>
+    </cms_site>
+    <cms_sitedomainalias>
+      <SiteDomainAliasID>1</SiteDomainAliasID>
+      <SiteDomainAliasName>localhost</SiteDomainAliasName>
+      <SiteID>1</SiteID>
+      <SiteDomainGUID>5821e398-123d-483a-ba50-747515777eb7</SiteDomainGUID>
+      <SiteDomainLastModified>2016-08-16T17:48:32.8080536+07:00</SiteDomainLastModified>
+    </cms_sitedomainalias>
+  </NewDataSet>
+</cms_site>

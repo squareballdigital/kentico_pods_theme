@@ -1,0 +1,98 @@
+﻿using CMS.Helpers;
+using CMS.PortalEngine.Web.UI;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class CMSWebParts_Widgets_ThreePodRow : CMSAbstractWebPart
+{
+    #region Public properties
+    public string LeftImage
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("LeftImage"), string.Empty);
+        }
+        set
+        {
+            SetValue("LeftImage", value);
+        }
+    }
+    public string LeftTextContent
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("LeftTextContent"), string.Empty);
+        }
+        set
+        {
+            SetValue("LeftTextContent", value);
+        }
+    }
+    
+    public string MiddleImage
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("MiddleImage"), string.Empty);
+        }
+        set
+        {
+            SetValue("MiddleImage", value);
+        }
+    }
+    public string MiddleTextContent
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("MiddleTextContent"), string.Empty);
+        }
+        set
+        {
+            SetValue("MiddleTextContent", value);
+        }
+    }
+    
+    public string RightImage
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("RightImage"), string.Empty);
+        }
+        set
+        {
+            SetValue("RightImage", value);
+        }
+    }
+    public string RightTextContent
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("RightTextContent"), string.Empty);
+        }
+        set
+        {
+            SetValue("RightTextContent", value);
+        }
+    }
+    #endregion
+
+    protected void SetupControl()
+    {
+        if (!StopProcessing)
+        {
+            ltrLeftPod.Text = "<img src='" + LeftImage + "'>" + LeftTextContent;
+            ltrMiddlePod.Text = "<img src='" + MiddleImage + "'>" + MiddleTextContent;
+            ltrRightPod.Text = "<img src='" + RightImage + "'>" + RightTextContent;
+        }
+    }
+
+    protected override void OnLoad(EventArgs e)
+    {
+        base.OnLoad(e);
+        SetupControl();
+    }
+}

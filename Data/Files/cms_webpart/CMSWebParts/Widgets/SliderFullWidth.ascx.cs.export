@@ -1,0 +1,69 @@
+﻿using CMS.DocumentEngine;
+using CMS.Helpers;
+using CMS.PortalEngine.Web.UI;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class CMSWebParts_Widgets_SliderFullWidth : CMSAbstractWebPart
+{
+    private const string SLIDE_CLASS_NAME = "Pods.SlideItem";
+
+    public Guid SlideContainer
+    {
+        get
+        {
+            return ValidationHelper.GetGuid(GetValue("SlideContainer"), Guid.Empty);
+        }
+        set
+        {
+            SetValue("SlideContainer", value);
+        }
+    }
+
+    protected override void OnLoad(EventArgs e)
+    {
+        base.OnLoad(e);
+        SetupControl();
+    }
+
+    protected void SetupControl()
+    {
+        if (!StopProcessing)
+        {
+            var tree = new TreeProvider();
+
+            var sliderContainer = tree.SelectSingleNode(SlideContainer, "en-us", CurrentSiteName);
+            var childNodes = tree.SelectNodes(CurrentSiteName, sliderContainer.NodeAliasPath + "/%", "en-us", true, SLIDE_CLASS_NAME);
+
+            if (childNodes != null && childNodes.Any())
+            {
+                var slideItems = new List<SlideItem>();
+                foreach (var slideItem in childNodes)
+                {
+                    slideItems.Add(new SlideItem
+                    {
+                        TextContent = slideItem.GetStringValue("TextContent", string.Empty),
+                        BackgroundImage = slideItem.GetStringValue("BackgroundImage", string.Empty),
+                        HorizontalTextAlignment = slideItem.GetStringValue("HorizontalTextAlignment", string.Empty),
+                        VerticalTextAlignment = slideItem.GetStringValue("VerticalTextAlignment", string.Empty)
+                    });
+                }
+
+                rptSlides.DataSource = slideItems;
+                rptSlides.DataBind();
+            }
+        }
+    }
+
+    public class SlideItem
+    {
+        public string TextContent { get; set; }
+        public string BackgroundImage { get; set; }
+        public string HorizontalTextAlignment { get; set; }
+        public string VerticalTextAlignment { get; set; }
+    }
+}

@@ -1,0 +1,30 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="MasonryGrid.ascx.cs" Inherits="CMSWebParts_Widgets_MasonryGrid" %>
+<section>
+    <div class="container">
+        <asp:Repeater runat="server" ID="rptGridItems">
+            <HeaderTemplate>
+                <div class="grid <%# HasSpacing ? "" : "no-spacing" %>">
+                    <div class="grid-sizer"></div>
+            </HeaderTemplate>
+            <ItemTemplate>
+                <a href='<%# Eval("TargetUrl") %>' class="grid-item <%# Eval("Size") %>">
+                    <div style="background-image: url('<%# Eval("Image") %>')" class="thumb"></div>
+                    <div class="caption">
+                        <%--<div class="type">Photography + Video</div>--%>
+                        <div class="description">
+                            <%# Eval("Text") %>
+                        </div>
+                    </div>
+                    <div class='visible-caption <%# (bool)Eval("ForceVisible") ? "" : "hidden" %>'>
+                        <div class="description">
+                            <%# Eval("Text") %>
+                        </div>
+                    </div>
+                </a>
+            </ItemTemplate>
+            <FooterTemplate>
+                    </div>
+            </FooterTemplate>
+        </asp:Repeater>
+    </div>
+</section>

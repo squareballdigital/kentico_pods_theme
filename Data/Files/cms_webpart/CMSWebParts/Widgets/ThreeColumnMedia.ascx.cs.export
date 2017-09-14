@@ -1,0 +1,144 @@
+﻿using CMS.Helpers;
+using CMS.PortalEngine.Web.UI;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class CMSWebParts_Widgets_ThreeColumnMedia : CMSAbstractWebPart
+{
+    #region Public properties
+    public string LeftColumnType
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("LeftColumnType"), string.Empty);
+        }
+        set
+        {
+            SetValue("LeftColumnType", value);
+        }
+    }
+    public string LeftImage
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("LeftImage"), string.Empty);
+        }
+        set
+        {
+            SetValue("LeftImage", value);
+        }
+    }
+    public string LeftVimeoId
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("LeftVimeoId"), string.Empty);
+        }
+        set
+        {
+            SetValue("LeftVimeoId", value);
+        }
+    }
+
+    public string MiddleColumnType
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("MiddleColumnType"), string.Empty);
+        }
+        set
+        {
+            SetValue("MiddleColumnType", value);
+        }
+    }
+    public string MiddleImage
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("MiddleImage"), string.Empty);
+        }
+        set
+        {
+            SetValue("MiddleImage", value);
+        }
+    }
+    public string MiddleVimeoId
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("MiddleVimeoId"), string.Empty);
+        }
+        set
+        {
+            SetValue("MiddleVimeoId", value);
+        }
+    }
+
+    public string RightColumnType
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("RightColumnType"), string.Empty);
+        }
+        set
+        {
+            SetValue("RightColumnType", value);
+        }
+    }
+    public string RightImage
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("RightImage"), string.Empty);
+        }
+        set
+        {
+            SetValue("RightImage", value);
+        }
+    }
+    public string RightVimeoId
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("RightVimeoId"), string.Empty);
+        }
+        set
+        {
+            SetValue("RightVimeoId", value);
+        }
+    }
+    #endregion
+
+    protected void SetupControl()
+    {
+        if (!StopProcessing)
+        {
+            ltrLeft.Text = BuildHtmlLightBox(LeftColumnType, LeftImage, LeftVimeoId);
+            ltrMiddle.Text = BuildHtmlLightBox(MiddleColumnType, MiddleImage, MiddleVimeoId);
+            ltrRight.Text = BuildHtmlLightBox(RightColumnType, RightImage, RightVimeoId);
+        }
+    }
+
+    protected override void OnLoad(EventArgs e)
+    {
+        base.OnLoad(e);
+        SetupControl();
+    }
+
+    private string BuildHtmlLightBox(string type, string image, string vimeoId)
+    {
+        switch (type)
+        {
+            case "image":
+                return "<a href='" + image + "' class='lightbox'><img alt='' src='" + image + "' class='item'></a>";
+            case "vimeo":
+                return "<a href='http://player.vimeo.com/video/" + vimeoId + "' class='lightbox video'><img alt='' src='' class='item' data-id='" + vimeoId + "'><span class='btn-play-sm'></span></a>";
+            default:
+                return string.Empty;
+        }
+    }
+}

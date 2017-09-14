@@ -1,0 +1,97 @@
+﻿<cms_form version="10.0">
+  <NewDataSet>
+    <cms_form>
+      <FormID>1</FormID>
+      <FormDisplayName>Contact Form</FormDisplayName>
+      <FormName>ContactForm</FormName>
+      <FormSendToEmail>hello@squareball.co</FormSendToEmail>
+      <FormSendFromEmail>hello@squareball.co</FormSendFromEmail>
+      <FormEmailSubject>Kentico Theme Submission</FormEmailSubject>
+      <FormEmailAttachUploadedDocs>true</FormEmailAttachUploadedDocs>
+      <FormClassID>5357</FormClassID>
+      <FormItems>2</FormItems>
+      <FormClearAfterSave>false</FormClearAfterSave>
+      <FormSiteID>1</FormSiteID>
+      <FormGUID>c17deba8-c74d-40f2-879e-95b225e1050e</FormGUID>
+      <FormLastModified>2016-07-18T10:56:31.3831774+07:00</FormLastModified>
+      <FormLogActivity>true</FormLogActivity>
+    </cms_form>
+    <cms_class>
+      <ClassID>5357</ClassID>
+      <ClassDisplayName>Contact Form</ClassDisplayName>
+      <ClassName>BizForm.ContactForm1</ClassName>
+      <ClassUsesVersioning>false</ClassUsesVersioning>
+      <ClassIsDocumentType>false</ClassIsDocumentType>
+      <ClassIsCoupledClass>true</ClassIsCoupledClass>
+      <ClassXmlSchema>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+  &lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&gt;
+    &lt;xs:complexType&gt;
+      &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+        &lt;xs:element name="Form_Bone_ContactForm_1"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="ContactFormID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" /&gt;
+              &lt;xs:element name="Name" minOccurs="0"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="500" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="Email" minOccurs="0"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="200" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="Phone" minOccurs="0"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="200" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="Website" minOccurs="0"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="200" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="Message" minOccurs="0"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="1000" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="FormInserted" type="xs:dateTime" /&gt;
+              &lt;xs:element name="FormUpdated" type="xs:dateTime" /&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+      &lt;/xs:choice&gt;
+    &lt;/xs:complexType&gt;
+    &lt;xs:unique name="Constraint1" msdata:PrimaryKey="true"&gt;
+      &lt;xs:selector xpath=".//Form_Bone_ContactForm_1" /&gt;
+      &lt;xs:field xpath="ContactFormID" /&gt;
+    &lt;/xs:unique&gt;
+  &lt;/xs:element&gt;
+&lt;/xs:schema&gt;</ClassXmlSchema>
+      <ClassFormDefinition>&lt;form version="2"&gt;&lt;field allowempty="true" column="Name" columnsize="500" columntype="text" guid="9338ddf7-0393-434f-86bd-2d3f30577611"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Text box&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;TextBoxControl&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field allowempty="true" column="Email" columnsize="200" columntype="text" guid="9cc6fcc7-92e4-4cec-bcb7-d3359b2a2e10" visible="true"&gt;&lt;settings&gt;&lt;AllowMultipleAddresses&gt;False&lt;/AllowMultipleAddresses&gt;&lt;controlname&gt;emailinput&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field allowempty="true" column="Phone" columnsize="200" columntype="text" guid="00c0edfb-663a-4436-89c1-c1d111b2bb1c" visible="true"&gt;&lt;settings&gt;&lt;AutoCompleteEnableCaching&gt;False&lt;/AutoCompleteEnableCaching&gt;&lt;AutoCompleteFirstRowSelected&gt;False&lt;/AutoCompleteFirstRowSelected&gt;&lt;AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;False&lt;/AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;&lt;controlname&gt;TextBoxControl&lt;/controlname&gt;&lt;FilterMode&gt;False&lt;/FilterMode&gt;&lt;Trim&gt;False&lt;/Trim&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field allowempty="true" column="Website" columnsize="200" columntype="text" guid="4871034b-958a-41f3-bc75-60b55bdc5fdc" visible="true"&gt;&lt;settings&gt;&lt;AutoCompleteEnableCaching&gt;False&lt;/AutoCompleteEnableCaching&gt;&lt;AutoCompleteFirstRowSelected&gt;False&lt;/AutoCompleteFirstRowSelected&gt;&lt;AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;False&lt;/AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;&lt;controlname&gt;TextBoxControl&lt;/controlname&gt;&lt;FilterMode&gt;False&lt;/FilterMode&gt;&lt;Trim&gt;False&lt;/Trim&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field allowempty="true" column="Message" columnsize="1000" columntype="text" guid="dccd0d67-c177-4bbc-87c5-5008cb16c305" reftype="Required" visible="true"&gt;&lt;settings&gt;&lt;AutoCompleteEnableCaching&gt;False&lt;/AutoCompleteEnableCaching&gt;&lt;AutoCompleteFirstRowSelected&gt;False&lt;/AutoCompleteFirstRowSelected&gt;&lt;AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;False&lt;/AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;&lt;controlname&gt;TextAreaControl&lt;/controlname&gt;&lt;FilterMode&gt;False&lt;/FilterMode&gt;&lt;Wrap&gt;True&lt;/Wrap&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="ContactFormID" columnprecision="0" columntype="integer" guid="eff3fab6-0358-452e-866a-9c7e80c74a70" isPK="true" publicfield="false"&gt;&lt;properties&gt;&lt;fieldcaption&gt;ContactFormID&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;labelcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="FormInserted" columnprecision="0" columntype="datetime" guid="4f1ff39f-2694-45eb-a0cd-89c3d7f022f2" publicfield="false" system="true"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Form inserted&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;calendarcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="FormUpdated" columnprecision="0" columntype="datetime" guid="8747851b-65d3-4c03-bd54-ccb7b1c2be2b" publicfield="false" system="true"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Form updated&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;calendarcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;/form&gt;</ClassFormDefinition>
+      <ClassNodeNameSource></ClassNodeNameSource>
+      <ClassTableName>Form_Bone_ContactForm_1</ClassTableName>
+      <ClassShowAsSystemTable>false</ClassShowAsSystemTable>
+      <ClassLastModified>2016-07-18T10:56:07.1903392+07:00</ClassLastModified>
+      <ClassGUID>1795e484-787a-4ba7-a113-c0d27b9a6054</ClassGUID>
+      <ClassIsCustomTable>false</ClassIsCustomTable>
+      <ClassSearchCreationDateColumn>FormInserted</ClassSearchCreationDateColumn>
+      <ClassSearchSettings>&lt;search&gt;&lt;item content="False" id="60cfb53a-746d-483f-9573-b014a788c730" name="FormInserted" searchable="True" tokenized="False" /&gt;&lt;item content="False" id="acc2d780-3138-4e06-be36-6e632b656c7f" name="FormUpdated" searchable="True" tokenized="False" /&gt;&lt;item content="False" id="c8ac8238-df1f-4463-a7f6-e079627ea00b" name="ContactFormID" searchable="True" tokenized="False" /&gt;&lt;/search&gt;</ClassSearchSettings>
+      <ClassSearchEnabled>true</ClassSearchEnabled>
+      <ClassVersionGUID>14ed8b02-97fb-4772-be57-a49d96120b4f</ClassVersionGUID>
+      <ClassIsForm>true</ClassIsForm>
+    </cms_class>
+  </NewDataSet>
+</cms_form>

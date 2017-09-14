@@ -1,0 +1,1133 @@
+﻿<cms_document version="10.0">
+  <NewDataSet>
+    <cms.folder>
+      <NodeID>2</NodeID>
+      <NodeAliasPath>/examples</NodeAliasPath>
+      <NodeName>examples</NodeName>
+      <NodeAlias>examples</NodeAlias>
+      <NodeClassID>5354</NodeClassID>
+      <NodeParentID>1</NodeParentID>
+      <NodeLevel>1</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>5dd021e5-4546-4d1a-aa20-f154fce2fa3e</NodeGUID>
+      <NodeOrder>3</NodeOrder>
+      <NodeInheritPageLevels></NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeHasChildren>true</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>2</NodeOriginalNodeID>
+      <NodeIsContentOnly>false</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>2</DocumentID>
+      <DocumentName>examples</DocumentName>
+      <DocumentNamePath>/examples</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-10T14:36:26.3510088+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-08-10T14:36:26.3510088+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>2</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>01159b7b-0aad-4401-b587-9e3c941a9a05</DocumentGUID>
+      <DocumentWorkflowCycleGUID>a4bd9aef-0d0b-43c3-ae47-6473a42d9873</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>CMS.Folder</ClassName>
+      <ClassDisplayName>Folder</ClassDisplayName>
+    </cms.folder>
+    <cms.menuitem>
+      <MenuItemID>1</MenuItemID>
+      <MenuItemName>home</MenuItemName>
+      <NodeID>3</NodeID>
+      <NodeAliasPath>/home</NodeAliasPath>
+      <NodeName>home</NodeName>
+      <NodeAlias>home</NodeAlias>
+      <NodeClassID>5334</NodeClassID>
+      <NodeParentID>1</NodeParentID>
+      <NodeLevel>1</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>4b9c6b0c-c24e-439c-afc2-b3709fc4fb66</NodeGUID>
+      <NodeOrder>1</NodeOrder>
+      <NodeInheritPageLevels></NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateID>25725</NodeTemplateID>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeHasChildren>true</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>3</NodeOriginalNodeID>
+      <NodeIsContentOnly>false</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>3</DocumentID>
+      <DocumentName>home</DocumentName>
+      <DocumentNamePath>/home</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-16T13:18:18.9451549+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>1</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-07-22T13:11:53.7549822+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath>/</DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>3</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentPageTemplateID>25725</DocumentPageTemplateID>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentWebParts>&lt;page&gt;&lt;webpartzone id="ZoneContent" v="1" widgetzonetype="editor"&gt;&lt;properties&gt;&lt;property name="containerhideonsubpages"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="timezonetype"&gt;inherit&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;/properties&gt;&lt;webpart controlid="SliderFullWidth" guid="70009f67-c27b-46c1-b269-0b93ac0f1fd9" iswidget="true" type="SliderFullWidth" v="1"&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;SliderFullWidth&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="instanceguid"&gt;70009f67-c27b-46c1-b269-0b93ac0f1fd9&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="slidecontainer"&gt;dfa37dfe-2a85-4811-a6a2-69712d461633&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;SliderFullWidth&lt;/property&gt;&lt;/webpart&gt;&lt;webpart controlid="GeneralText" guid="62deda13-2b26-4eeb-8258-ed4c7c616b70" iswidget="true" type="GeneralText" v="1"&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;GeneralText&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="instanceguid"&gt;62deda13-2b26-4eeb-8258-ed4c7c616b70&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="textalignment"&gt;text-left&lt;/property&gt;&lt;property name="textcontent"&gt;&amp;lt;h2&amp;gt;Welcome to Pods&amp;lt;/h2&amp;gt;
+
+&amp;lt;p&amp;gt;This template has been put together to demonstrate how easy it is to assemble a website using re-usable widgets which have been created and configured for Kentico.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+Click on the items below in the masonry grid widget to see examples of each widget. &amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+The template is available on the Kentico Marketplace for download.&amp;lt;/p&amp;gt;
+&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;GeneralText&lt;/property&gt;&lt;/webpart&gt;&lt;webpart controlid="MasonryGrid" guid="701ba25b-2551-4958-9a57-24473a20589c" iswidget="true" type="MasonryGrid" v="1"&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;MasonryGrid&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hasspacing"&gt;True&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="instanceguid"&gt;701ba25b-2551-4958-9a57-24473a20589c&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="positionleft"&gt;&lt;/property&gt;&lt;property name="positiontop"&gt;&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="showtext"&gt;True&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;MasonryGrid&lt;/property&gt;&lt;/webpart&gt;&lt;/webpartzone&gt;&lt;/page&gt;</DocumentWebParts>
+      <DocumentPriority>1</DocumentPriority>
+      <DocumentUseCustomExtensions>false</DocumentUseCustomExtensions>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>49733a72-1615-44cf-9e5c-392e439a28c8</DocumentGUID>
+      <DocumentWorkflowCycleGUID>5a6e4553-3770-4e41-aef4-84c9735d03cc</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>CMS.MenuItem</ClassName>
+      <ClassDisplayName>Page (menu item)</ClassDisplayName>
+    </cms.menuitem>
+    <cms.menuitem>
+      <MenuItemID>2</MenuItemID>
+      <MenuItemName>about</MenuItemName>
+      <NodeID>4</NodeID>
+      <NodeAliasPath>/about</NodeAliasPath>
+      <NodeName>about</NodeName>
+      <NodeAlias>about</NodeAlias>
+      <NodeClassID>5334</NodeClassID>
+      <NodeParentID>1</NodeParentID>
+      <NodeLevel>1</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>86ad52a6-151b-4924-96d4-a8dd465dc9d3</NodeGUID>
+      <NodeOrder>2</NodeOrder>
+      <NodeInheritPageLevels></NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateID>25725</NodeTemplateID>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeHasChildren>false</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>4</NodeOriginalNodeID>
+      <NodeIsContentOnly>false</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>4</DocumentID>
+      <DocumentName>about</DocumentName>
+      <DocumentNamePath>/about</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-17T12:40:23.9680359+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>2</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-08-16T12:22:45.466857+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>4</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentPageTemplateID>25725</DocumentPageTemplateID>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentWebParts>&lt;page&gt;&lt;webpartzone id="ZoneContent" v="1" widgetzonetype="editor"&gt;&lt;properties&gt;&lt;property name="containerhideonsubpages"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="timezonetype"&gt;inherit&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;/properties&gt;&lt;webpart controlid="HeroImage_Center" guid="155e85c3-463a-4a99-ae92-d06241a987e2" iswidget="true" type="HeroImage-Center" v="1"&gt;&lt;property name="backgroundimage"&gt;~/pods/media/Default/end_frame.jpg?ext=.jpg&lt;/property&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;HeroImage_Center&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="instanceguid"&gt;155e85c3-463a-4a99-ae92-d06241a987e2&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="textcontent"&gt;About&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;HeroImage-Center&lt;/property&gt;&lt;/webpart&gt;&lt;webpart controlid="GeneralText" guid="3f9547d9-21ba-416d-b02e-a4006f492667" iswidget="true" type="GeneralText" v="1"&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;GeneralText&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="instanceguid"&gt;3f9547d9-21ba-416d-b02e-a4006f492667&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="textalignment"&gt;text-left&lt;/property&gt;&lt;property name="textcontent"&gt;&amp;lt;h2&amp;gt;About this template&amp;lt;/h2&amp;gt;
+
+&amp;lt;p&amp;gt;This free template demonstrates widgets within Kentico, which enable&amp;amp;nbsp;CMS editors to arrange page content using re-usable sections.&amp;lt;/p&amp;gt;
+&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;GeneralText&lt;/property&gt;&lt;/webpart&gt;&lt;/webpartzone&gt;&lt;/page&gt;</DocumentWebParts>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>02b287f3-5214-4389-b046-b9f74fee34f3</DocumentGUID>
+      <DocumentWorkflowCycleGUID>a7b08480-ab67-400b-8406-86bbf1b4591d</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>CMS.MenuItem</ClassName>
+      <ClassDisplayName>Page (menu item)</ClassDisplayName>
+    </cms.menuitem>
+    <cms.menuitem>
+      <MenuItemID>3</MenuItemID>
+      <SiteMenuTheme>light-menu</SiteMenuTheme>
+      <MenuItemName>masonry grid</MenuItemName>
+      <NodeID>6</NodeID>
+      <NodeAliasPath>/examples/masonry-grid</NodeAliasPath>
+      <NodeName>masonry grid</NodeName>
+      <NodeAlias>masonry-grid</NodeAlias>
+      <NodeClassID>5334</NodeClassID>
+      <NodeParentID>2</NodeParentID>
+      <NodeLevel>2</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>2d0b24da-1839-421f-a9ab-a519b0ae4e4c</NodeGUID>
+      <NodeOrder>4</NodeOrder>
+      <NodeInheritPageLevels></NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateID>25725</NodeTemplateID>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeHasChildren>true</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>6</NodeOriginalNodeID>
+      <NodeIsContentOnly>false</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>6</DocumentID>
+      <DocumentName>masonry grid</DocumentName>
+      <DocumentNamePath>/examples/masonry grid</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-16T17:05:33.877144+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>3</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-08-09T17:32:24.1260215+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>6</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentPageTemplateID>25725</DocumentPageTemplateID>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentWebParts>&lt;page&gt;&lt;webpartzone id="ZoneContent" v="1" widgetzonetype="editor"&gt;&lt;properties&gt;&lt;property name="containerhideonsubpages"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="timezonetype"&gt;inherit&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;/properties&gt;&lt;webpart controlid="MasonryGrid" guid="2d62540d-cf10-4bbe-a820-89efeb26359f" iswidget="true" type="MasonryGrid" v="1"&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;MasonryGrid&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hasspacing"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="instanceguid"&gt;2d62540d-cf10-4bbe-a820-89efeb26359f&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="showtext"&gt;False&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;MasonryGrid&lt;/property&gt;&lt;/webpart&gt;&lt;webpart controlid="PageNavigation" guid="45903583-11f0-4cfe-9a65-83f010138e87" iswidget="true" type="PageNavigation" v="1"&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;PageNavigation&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;&lt;/property&gt;&lt;property name="instanceguid"&gt;45903583-11f0-4cfe-9a65-83f010138e87&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;PageNavigation&lt;/property&gt;&lt;/webpart&gt;&lt;/webpartzone&gt;&lt;/page&gt;</DocumentWebParts>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>d458aaad-a575-4acc-96cf-faf356dffa3c</DocumentGUID>
+      <DocumentWorkflowCycleGUID>7a9c7b6d-c21a-44b7-8570-32d80b21bc05</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>CMS.MenuItem</ClassName>
+      <ClassDisplayName>Page (menu item)</ClassDisplayName>
+    </cms.menuitem>
+    <cms.menuitem>
+      <MenuItemID>4</MenuItemID>
+      <SiteMenuTheme>light-menu</SiteMenuTheme>
+      <MenuItemName>contact details</MenuItemName>
+      <NodeID>7</NodeID>
+      <NodeAliasPath>/examples/contact-details</NodeAliasPath>
+      <NodeName>contact details</NodeName>
+      <NodeAlias>contact-details</NodeAlias>
+      <NodeClassID>5334</NodeClassID>
+      <NodeParentID>2</NodeParentID>
+      <NodeLevel>2</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>a7f5a9b9-ab77-4770-a78d-5c5a895b4cfb</NodeGUID>
+      <NodeOrder>1</NodeOrder>
+      <NodeInheritPageLevels></NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateID>25725</NodeTemplateID>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeHasChildren>false</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>7</NodeOriginalNodeID>
+      <NodeIsContentOnly>false</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>7</DocumentID>
+      <DocumentName>contact details</DocumentName>
+      <DocumentNamePath>/examples/contact details</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-17T16:12:04.9440714+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>4</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-08-09T17:40:34.8881817+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>7</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentPageTemplateID>25725</DocumentPageTemplateID>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentWebParts>&lt;page&gt;&lt;webpartzone id="ZoneContent" v="1" widgetzonetype="editor"&gt;&lt;properties&gt;&lt;property name="containerhideonsubpages"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="timezonetype"&gt;inherit&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;/properties&gt;&lt;webpart controlid="ContactDetails" guid="97f38c3f-2a05-4f49-a0d1-252148e831cb" iswidget="true" type="ContactDetails" v="1"&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;ContactDetails&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="instanceguid"&gt;97f38c3f-2a05-4f49-a0d1-252148e831cb&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="positionleft"&gt;&lt;/property&gt;&lt;property name="positiontop"&gt;&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="textcontent"&gt;&amp;lt;div class="inner"&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;span class="bold accent"&amp;gt;Squareball Digital&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;
+Betahaus&amp;lt;br /&amp;gt;
+Prinzessinnenstraße 19-20&amp;lt;br /&amp;gt;
+10969 Berlin&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;DE +49 (0) 30 8876 4997&amp;lt;br /&amp;gt;
+UK +44 (0) 203 239 2231&amp;lt;br /&amp;gt;
+hello@squareball.co&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;ContactDetails&lt;/property&gt;&lt;/webpart&gt;&lt;webpart controlid="PageNavigation" guid="9bc227b3-2797-4f22-9aca-eaa74f660d80" iswidget="true" type="PageNavigation" v="1"&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;PageNavigation&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;&lt;/property&gt;&lt;property name="instanceguid"&gt;9bc227b3-2797-4f22-9aca-eaa74f660d80&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;PageNavigation&lt;/property&gt;&lt;/webpart&gt;&lt;/webpartzone&gt;&lt;/page&gt;</DocumentWebParts>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>747ceeb3-5269-4965-8fea-43a846977cda</DocumentGUID>
+      <DocumentWorkflowCycleGUID>d3b72855-f94b-43b2-8c54-065f1979d7d0</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>CMS.MenuItem</ClassName>
+      <ClassDisplayName>Page (menu item)</ClassDisplayName>
+    </cms.menuitem>
+    <cms.menuitem>
+      <MenuItemID>5</MenuItemID>
+      <SiteMenuTheme>light-menu</SiteMenuTheme>
+      <MenuItemName>media widgets</MenuItemName>
+      <NodeID>8</NodeID>
+      <NodeAliasPath>/examples/media-widgets</NodeAliasPath>
+      <NodeName>media widgets</NodeName>
+      <NodeAlias>media-widgets</NodeAlias>
+      <NodeClassID>5334</NodeClassID>
+      <NodeParentID>2</NodeParentID>
+      <NodeLevel>2</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>03a2a3d9-4b0f-47c1-843f-30aa6e6c2223</NodeGUID>
+      <NodeOrder>2</NodeOrder>
+      <NodeInheritPageLevels></NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateID>25725</NodeTemplateID>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeHasChildren>false</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>8</NodeOriginalNodeID>
+      <NodeIsContentOnly>false</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>8</DocumentID>
+      <DocumentName>media widgets</DocumentName>
+      <DocumentNamePath>/examples/media widgets</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-17T12:50:40.650489+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>5</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-08-09T17:41:21.2007413+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>8</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentPageTemplateID>25725</DocumentPageTemplateID>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentWebParts>&lt;page&gt;&lt;webpartzone id="ZoneContent" v="1" widgetzonetype="editor"&gt;&lt;properties&gt;&lt;property name="containerhideonsubpages"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="timezonetype"&gt;inherit&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;/properties&gt;&lt;webpart controlid="GeneralText" guid="37c54ac7-8a9b-4cf5-85b4-720053057d6f" iswidget="true" type="GeneralText" v="1"&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;GeneralText&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="instanceguid"&gt;37c54ac7-8a9b-4cf5-85b4-720053057d6f&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="textalignment"&gt;text-left&lt;/property&gt;&lt;property name="textcontent"&gt;&amp;lt;h1&amp;gt;Media widgets&amp;lt;/h1&amp;gt;
+
+&amp;lt;p&amp;gt;On this page we can see examples of the following;&amp;lt;/p&amp;gt;
+
+&amp;lt;ul&amp;gt;
+	&amp;lt;li&amp;gt;Full width video&amp;lt;/li&amp;gt;
+	&amp;lt;li&amp;gt;3 pod video&amp;amp;nbsp;&amp;lt;/li&amp;gt;
+	&amp;lt;li&amp;gt;MP3 player&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;GeneralText&lt;/property&gt;&lt;/webpart&gt;&lt;webpart controlid="VimeoFullWidth" guid="e575f2bc-a0f9-499d-8366-ad074e004a0f" iswidget="true" type="VimeoFullWidth" v="1"&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;Add title here&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;VimeoFullWidth&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="instanceguid"&gt;e575f2bc-a0f9-499d-8366-ad074e004a0f&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="positionleft"&gt;&lt;/property&gt;&lt;property name="positiontop"&gt;&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="vimeoid"&gt;50238512&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;VimeoFullWidth&lt;/property&gt;&lt;/webpart&gt;&lt;webpart controlid="Three_ColumnMedia" guid="734db7c1-c9c6-4361-b52b-28c00e0caf9b" iswidget="true" type="Three-ColumnMedia" v="1"&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;Three_ColumnMedia&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="instanceguid"&gt;734db7c1-c9c6-4361-b52b-28c00e0caf9b&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="leftcolumntype"&gt;vimeo&lt;/property&gt;&lt;property name="leftimage"&gt;&lt;/property&gt;&lt;property name="leftvimeoid"&gt;50238512&lt;/property&gt;&lt;property name="middlecolumntype"&gt;vimeo&lt;/property&gt;&lt;property name="middleimage"&gt;~/masonry-grid/masonry-details/3-media-400x267.aspx?width=400&amp;amp;height=267&amp;amp;ext=.png&lt;/property&gt;&lt;property name="middlevimeoid"&gt;50238512&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="positionleft"&gt;&lt;/property&gt;&lt;property name="positiontop"&gt;&lt;/property&gt;&lt;property name="rightcolumntype"&gt;vimeo&lt;/property&gt;&lt;property name="rightimage"&gt;&lt;/property&gt;&lt;property name="rightvimeoid"&gt;50238512&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;Three-ColumnMedia&lt;/property&gt;&lt;/webpart&gt;&lt;webpart controlid="MP3Player" guid="09926977-215e-4f02-9ac0-bdbab954c40f" iswidget="true" type="MP3Player" v="1"&gt;&lt;property name="audio"&gt;~/pods/media/Default/Brahms-Symphony-from-Fourth-Movement.mp3?ext=.mp3&lt;/property&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;MP3Player&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="instanceguid"&gt;09926977-215e-4f02-9ac0-bdbab954c40f&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;MP3Player&lt;/property&gt;&lt;/webpart&gt;&lt;webpart controlid="PageNavigation" guid="89d2bef7-2584-4353-9526-9cdb5af4b8f6" iswidget="true" type="PageNavigation" v="1"&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;PageNavigation&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;&lt;/property&gt;&lt;property name="instanceguid"&gt;89d2bef7-2584-4353-9526-9cdb5af4b8f6&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;PageNavigation&lt;/property&gt;&lt;/webpart&gt;&lt;/webpartzone&gt;&lt;/page&gt;</DocumentWebParts>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentUseCustomExtensions>false</DocumentUseCustomExtensions>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>683f6a2a-ca44-4ca4-ada1-0c8e018ac603</DocumentGUID>
+      <DocumentWorkflowCycleGUID>69d64ead-4f5f-4133-8ae1-7eefe7d237fd</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>CMS.MenuItem</ClassName>
+      <ClassDisplayName>Page (menu item)</ClassDisplayName>
+    </cms.menuitem>
+    <cms.menuitem>
+      <MenuItemID>6</MenuItemID>
+      <MenuItemName>image widgets</MenuItemName>
+      <NodeID>9</NodeID>
+      <NodeAliasPath>/examples/image-widgets</NodeAliasPath>
+      <NodeName>image widgets</NodeName>
+      <NodeAlias>image-widgets</NodeAlias>
+      <NodeClassID>5334</NodeClassID>
+      <NodeParentID>2</NodeParentID>
+      <NodeLevel>2</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>429c30ca-ca69-4825-b4f7-d70bf1ab184e</NodeGUID>
+      <NodeOrder>3</NodeOrder>
+      <NodeInheritPageLevels></NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateID>25725</NodeTemplateID>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeHasChildren>false</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>9</NodeOriginalNodeID>
+      <NodeIsContentOnly>false</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>9</DocumentID>
+      <DocumentName>image widgets</DocumentName>
+      <DocumentNamePath>/examples/image widgets</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-17T12:47:55.2118226+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>6</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-08-09T17:54:33.8841413+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>9</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentPageTemplateID>25725</DocumentPageTemplateID>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentWebParts>&lt;page&gt;&lt;webpartzone id="ZoneContent" v="1" widgetzonetype="editor"&gt;&lt;properties&gt;&lt;property name="containerhideonsubpages"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="timezonetype"&gt;inherit&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;/properties&gt;&lt;webpart controlid="HeroImage_Center" guid="c12d6610-4dad-40ca-904f-7c7cac34025e" iswidget="true" type="HeroImage-Center" v="1"&gt;&lt;property name="backgroundimage"&gt;~/pods/media/Default/hero-1263x500-dark.png?ext=.png&lt;/property&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;HeroImage_Center&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="instanceguid"&gt;c12d6610-4dad-40ca-904f-7c7cac34025e&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="textcontent"&gt;Center aligned&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;HeroImage-Center&lt;/property&gt;&lt;/webpart&gt;&lt;webpart controlid="HeroImage_Left" guid="1da51f05-8ce1-4fa8-b190-d829f76e99e2" iswidget="true" type="HeroImage-Left" v="1"&gt;&lt;property name="backgroundimage"&gt;~/pods/media/Default/hero-1263x500-darkish.png?ext=.png&lt;/property&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;HeroImage_Left&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="instanceguid"&gt;1da51f05-8ce1-4fa8-b190-d829f76e99e2&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="positionleft"&gt;&lt;/property&gt;&lt;property name="positiontop"&gt;&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="textcontent"&gt;Left aligned&lt;/property&gt;&lt;property name="textsubcontent"&gt;&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;HeroImage-Left&lt;/property&gt;&lt;/webpart&gt;&lt;webpart controlid="ThreePodRow" guid="1528ed5f-3037-4360-910f-95ffe9a2d6b7" iswidget="true" type="ThreePodRow" v="1"&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;ThreePodRow&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="instanceguid"&gt;1528ed5f-3037-4360-910f-95ffe9a2d6b7&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="leftimage"&gt;~/pods/media/Default/3-media-400x267.png?ext=.png&lt;/property&gt;&lt;property name="lefttargetcontent"&gt;&lt;/property&gt;&lt;property name="lefttargettype"&gt;url&lt;/property&gt;&lt;property name="lefttargeturl"&gt;#&lt;/property&gt;&lt;property name="lefttextcontent"&gt;&amp;lt;h3&amp;gt;Title&amp;amp;nbsp;&amp;lt;/h3&amp;gt;
+
+&amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id bibendum tortor. Pellentesque laoreet nisi in massa tempor tincidunt. Donec risus magna, scelerisque vel finibus et, laoreet nec lacus. Aliquam eu ex odio.&amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&lt;/property&gt;&lt;property name="middleimage"&gt;~/pods/media/Default/3-media-400x267.png?ext=.png&lt;/property&gt;&lt;property name="middletargetcontent"&gt;&lt;/property&gt;&lt;property name="middletargettype"&gt;url&lt;/property&gt;&lt;property name="middletargeturl"&gt;#&lt;/property&gt;&lt;property name="middletextcontent"&gt;&amp;lt;h3&amp;gt;Title&amp;amp;nbsp;&amp;lt;/h3&amp;gt;
+
+&amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id bibendum tortor. Pellentesque laoreet nisi in massa tempor tincidunt. Donec risus magna, scelerisque vel finibus et, laoreet nec lacus. Aliquam eu ex odio.&amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="rightimage"&gt;~/pods/media/Default/3-media-400x267.png?ext=.png&lt;/property&gt;&lt;property name="righttargettype"&gt;url&lt;/property&gt;&lt;property name="righttargeturl"&gt;#&lt;/property&gt;&lt;property name="righttextcontent"&gt;&amp;lt;h3&amp;gt;Title&amp;amp;nbsp;&amp;lt;/h3&amp;gt;
+
+&amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id bibendum tortor. Pellentesque laoreet nisi in massa tempor tincidunt. Donec risus magna, scelerisque vel finibus et, laoreet nec lacus. Aliquam eu ex odio.&amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;ThreePodRow&lt;/property&gt;&lt;/webpart&gt;&lt;webpart controlid="ImageFullWidth" guid="bf1f7884-dc7d-4b81-ae6d-06773fb844c1" iswidget="true" type="ImageFullWidth" v="1"&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;ImageFullWidth&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;False&lt;/property&gt;&lt;property name="image"&gt;~/pods/media/Default/hero-1263x500.png?ext=.png&lt;/property&gt;&lt;property name="instanceguid"&gt;bf1f7884-dc7d-4b81-ae6d-06773fb844c1&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;ImageFullWidth&lt;/property&gt;&lt;/webpart&gt;&lt;webpart controlid="PageNavigation" guid="d7ada85d-ba4d-4fc7-8dc6-6792479e40c9" iswidget="true" type="PageNavigation" v="1"&gt;&lt;property name="container"&gt;&lt;/property&gt;&lt;property name="containercssclass"&gt;&lt;/property&gt;&lt;property name="containercustomcontent"&gt;&lt;/property&gt;&lt;property name="containertitle"&gt;&lt;/property&gt;&lt;property name="contentafter"&gt;&lt;/property&gt;&lt;property name="contentbefore"&gt;&lt;/property&gt;&lt;property name="controlid"&gt;PageNavigation&lt;/property&gt;&lt;property name="customtimezone"&gt;&lt;/property&gt;&lt;property name="disablemacros"&gt;False&lt;/property&gt;&lt;property name="disableviewstate"&gt;False&lt;/property&gt;&lt;property name="displaytoroles"&gt;&lt;/property&gt;&lt;property name="enableoutputfilter"&gt;False&lt;/property&gt;&lt;property name="hideonsubpages"&gt;&lt;/property&gt;&lt;property name="instanceguid"&gt;d7ada85d-ba4d-4fc7-8dc6-6792479e40c9&lt;/property&gt;&lt;property name="iswidget"&gt;True&lt;/property&gt;&lt;property name="outputconverttablestodivs"&gt;&lt;/property&gt;&lt;property name="outputfixattributes"&gt;True&lt;/property&gt;&lt;property name="outputfixhtml5"&gt;True&lt;/property&gt;&lt;property name="outputfixjavascript"&gt;True&lt;/property&gt;&lt;property name="outputfixlowercase"&gt;True&lt;/property&gt;&lt;property name="outputfixselfclose"&gt;True&lt;/property&gt;&lt;property name="outputresolveurls"&gt;True&lt;/property&gt;&lt;property name="showfordocumenttypes"&gt;&lt;/property&gt;&lt;property name="timezonetype"&gt;&lt;/property&gt;&lt;property name="useupdatepanel"&gt;False&lt;/property&gt;&lt;property name="visible"&gt;True&lt;/property&gt;&lt;property name="webparttitle"&gt;&lt;/property&gt;&lt;property name="webparttype"&gt;PageNavigation&lt;/property&gt;&lt;/webpart&gt;&lt;/webpartzone&gt;&lt;/page&gt;</DocumentWebParts>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentUseCustomExtensions>false</DocumentUseCustomExtensions>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>ed231f6e-2e4a-4ea5-a085-c409db6f2a9b</DocumentGUID>
+      <DocumentWorkflowCycleGUID>778f04d3-3d57-4e11-a95b-e3c54661fc43</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>CMS.MenuItem</ClassName>
+      <ClassDisplayName>Page (menu item)</ClassDisplayName>
+    </cms.menuitem>
+    <pods.griditem>
+      <GridItemID>1</GridItemID>
+      <Text>Contact Form&amp;nbsp;</Text>
+      <Image>~/pods/media/Default/wide-562x349.png?ext=.png</Image>
+      <Size>large</Size>
+      <TargetType>content</TargetType>
+      <TargetUrl></TargetUrl>
+      <TargetContent>a7f5a9b9-ab77-4770-a78d-5c5a895b4cfb</TargetContent>
+      <NodeID>10</NodeID>
+      <NodeAliasPath>/home/large</NodeAliasPath>
+      <NodeName>large</NodeName>
+      <NodeAlias>large</NodeAlias>
+      <NodeClassID>5351</NodeClassID>
+      <NodeParentID>3</NodeParentID>
+      <NodeLevel>2</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>4e9729ee-f1a5-40f7-b50e-3c297d08bc86</NodeGUID>
+      <NodeOrder>2</NodeOrder>
+      <NodeInheritPageLevels>/</NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeInheritPageTemplate>false</NodeInheritPageTemplate>
+      <NodeHasChildren>false</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>10</NodeOriginalNodeID>
+      <NodeIsContentOnly>true</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>10</DocumentID>
+      <DocumentName>large</DocumentName>
+      <DocumentNamePath>/home/large</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-16T18:34:38.0923805+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>1</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-08-10T12:36:36.7900688+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>10</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>3c36429c-08d4-4df9-b57a-84fadf019c82</DocumentGUID>
+      <DocumentWorkflowCycleGUID>3ae17900-33a7-4a9b-8b38-7bb00ede62a2</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>Pods.GridItem</ClassName>
+      <ClassDisplayName>Pods Grid Item</ClassDisplayName>
+    </pods.griditem>
+    <pods.griditem>
+      <GridItemID>2</GridItemID>
+      <Text>Media Widgets</Text>
+      <Image>~/pods/media/Default/tall-349x562.png?ext=.png</Image>
+      <Size>tall</Size>
+      <TargetType>content</TargetType>
+      <TargetUrl></TargetUrl>
+      <TargetContent>03a2a3d9-4b0f-47c1-843f-30aa6e6c2223</TargetContent>
+      <NodeID>11</NodeID>
+      <NodeAliasPath>/home/tall</NodeAliasPath>
+      <NodeName>tall</NodeName>
+      <NodeAlias>tall</NodeAlias>
+      <NodeClassID>5351</NodeClassID>
+      <NodeParentID>3</NodeParentID>
+      <NodeLevel>2</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>6f1b920b-4dd0-416c-893f-9a12219b46c2</NodeGUID>
+      <NodeOrder>4</NodeOrder>
+      <NodeInheritPageLevels>/</NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeInheritPageTemplate>false</NodeInheritPageTemplate>
+      <NodeHasChildren>false</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>11</NodeOriginalNodeID>
+      <NodeIsContentOnly>true</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>11</DocumentID>
+      <DocumentName>tall</DocumentName>
+      <DocumentNamePath>/home/tall</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-16T18:35:01.3216014+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>2</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-08-10T12:38:11.1353234+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>11</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>ccf32d48-e2af-4e45-ae7e-4c2df4af482f</DocumentGUID>
+      <DocumentWorkflowCycleGUID>6197958d-4791-495f-b9ed-4465cb64e953</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>Pods.GridItem</ClassName>
+      <ClassDisplayName>Pods Grid Item</ClassDisplayName>
+    </pods.griditem>
+    <pods.griditem>
+      <GridItemID>3</GridItemID>
+      <Text>Image Widgets</Text>
+      <Image>~/pods/media/Default/750x562.png?ext=.png</Image>
+      <TargetType>content</TargetType>
+      <TargetUrl></TargetUrl>
+      <TargetContent>429c30ca-ca69-4825-b4f7-d70bf1ab184e</TargetContent>
+      <NodeID>12</NodeID>
+      <NodeAliasPath>/home/normal</NodeAliasPath>
+      <NodeName>normal</NodeName>
+      <NodeAlias>normal</NodeAlias>
+      <NodeClassID>5351</NodeClassID>
+      <NodeParentID>3</NodeParentID>
+      <NodeLevel>2</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>3fa5c13e-14cc-4c0e-b854-40f303dcb25c</NodeGUID>
+      <NodeOrder>3</NodeOrder>
+      <NodeInheritPageLevels>/</NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeInheritPageTemplate>false</NodeInheritPageTemplate>
+      <NodeHasChildren>false</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>12</NodeOriginalNodeID>
+      <NodeIsContentOnly>true</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>12</DocumentID>
+      <DocumentName>normal</DocumentName>
+      <DocumentNamePath>/home/normal</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-16T18:34:48.0759435+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>3</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-08-10T12:40:42.5996762+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>12</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>ae6785a7-5a31-4b5f-aed0-33bd2c6ec2f1</DocumentGUID>
+      <DocumentWorkflowCycleGUID>94caf303-eac9-4c83-8bb9-ed5d5efaa0ff</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>Pods.GridItem</ClassName>
+      <ClassDisplayName>Pods Grid Item</ClassDisplayName>
+    </pods.griditem>
+    <pods.griditem>
+      <GridItemID>4</GridItemID>
+      <Text>Masonry Grid</Text>
+      <Image>~/pods/media/Default/wide-562x349.png?ext=.png</Image>
+      <Size>wide</Size>
+      <TargetType>content</TargetType>
+      <TargetUrl></TargetUrl>
+      <TargetContent>2d0b24da-1839-421f-a9ab-a519b0ae4e4c</TargetContent>
+      <NodeID>13</NodeID>
+      <NodeAliasPath>/home/wide</NodeAliasPath>
+      <NodeName>wide</NodeName>
+      <NodeAlias>wide</NodeAlias>
+      <NodeClassID>5351</NodeClassID>
+      <NodeParentID>3</NodeParentID>
+      <NodeLevel>2</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>3858a6f1-5a5a-4fd2-a1a6-c745e727e8e0</NodeGUID>
+      <NodeOrder>5</NodeOrder>
+      <NodeInheritPageLevels>/</NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeInheritPageTemplate>false</NodeInheritPageTemplate>
+      <NodeHasChildren>false</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>13</NodeOriginalNodeID>
+      <NodeIsContentOnly>true</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>13</DocumentID>
+      <DocumentName>wide</DocumentName>
+      <DocumentNamePath>/home/wide</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-16T18:35:13.3179401+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>4</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-08-10T12:42:19.4298618+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>13</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>b98ea53c-3a6b-478e-bca0-d071b5c0ff82</DocumentGUID>
+      <DocumentWorkflowCycleGUID>76c20530-a605-4585-baa3-6955cccd54b2</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>Pods.GridItem</ClassName>
+      <ClassDisplayName>Pods Grid Item</ClassDisplayName>
+    </pods.griditem>
+    <pods.griditem>
+      <GridItemID>5</GridItemID>
+      <Text>large</Text>
+      <Image>~/pods/media/Default/750x562.png?ext=.png</Image>
+      <Size>large</Size>
+      <TargetType>content</TargetType>
+      <TargetUrl>#</TargetUrl>
+      <TargetContent>2d0b24da-1839-421f-a9ab-a519b0ae4e4c</TargetContent>
+      <NodeID>15</NodeID>
+      <NodeAliasPath>/examples/masonry-grid/large</NodeAliasPath>
+      <NodeName>large</NodeName>
+      <NodeAlias>large</NodeAlias>
+      <NodeClassID>5351</NodeClassID>
+      <NodeParentID>6</NodeParentID>
+      <NodeLevel>3</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>8a3c5cbd-0f09-4873-8400-11330370e4f7</NodeGUID>
+      <NodeOrder>1</NodeOrder>
+      <NodeInheritPageLevels>/</NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeInheritPageTemplate>false</NodeInheritPageTemplate>
+      <NodeHasChildren>false</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>15</NodeOriginalNodeID>
+      <NodeIsContentOnly>true</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>15</DocumentID>
+      <DocumentName>large</DocumentName>
+      <DocumentNamePath>/examples/masonry grid/large</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-17T09:11:06.0408227+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>5</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-08-10T10:35:50.6664016+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>15</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>5d44e849-bf0f-4958-904b-c077efc88f67</DocumentGUID>
+      <DocumentWorkflowCycleGUID>46095b7e-7607-4fe5-b2d9-b8cd97e05a23</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>Pods.GridItem</ClassName>
+      <ClassDisplayName>Pods Grid Item</ClassDisplayName>
+    </pods.griditem>
+    <pods.griditem>
+      <GridItemID>6</GridItemID>
+      <Text>tall</Text>
+      <Image>~/pods/media/Default/tall-349x562.png?ext=.png</Image>
+      <Size>tall</Size>
+      <TargetType>content</TargetType>
+      <TargetUrl>#</TargetUrl>
+      <TargetContent>2d0b24da-1839-421f-a9ab-a519b0ae4e4c</TargetContent>
+      <NodeID>16</NodeID>
+      <NodeAliasPath>/examples/masonry-grid/tall</NodeAliasPath>
+      <NodeName>tall</NodeName>
+      <NodeAlias>tall</NodeAlias>
+      <NodeClassID>5351</NodeClassID>
+      <NodeParentID>6</NodeParentID>
+      <NodeLevel>3</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>3e5a635e-2394-40b8-9a5a-df97c2d074c8</NodeGUID>
+      <NodeOrder>2</NodeOrder>
+      <NodeInheritPageLevels>/</NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeInheritPageTemplate>false</NodeInheritPageTemplate>
+      <NodeHasChildren>false</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>16</NodeOriginalNodeID>
+      <NodeIsContentOnly>true</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>16</DocumentID>
+      <DocumentName>tall</DocumentName>
+      <DocumentNamePath>/examples/masonry grid/tall</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-17T09:11:17.0849478+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>6</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-08-10T10:37:22.7801924+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>16</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>8f804bc6-1b73-41b3-a0bf-2dc3ade2835a</DocumentGUID>
+      <DocumentWorkflowCycleGUID>8fb6bc7a-89ec-4b0d-8910-141e4d971679</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>Pods.GridItem</ClassName>
+      <ClassDisplayName>Pods Grid Item</ClassDisplayName>
+    </pods.griditem>
+    <pods.griditem>
+      <GridItemID>7</GridItemID>
+      <Text>normal</Text>
+      <Image>~/pods/media/Default/750x562.png?ext=.png</Image>
+      <TargetType>content</TargetType>
+      <TargetUrl>#</TargetUrl>
+      <TargetContent>2d0b24da-1839-421f-a9ab-a519b0ae4e4c</TargetContent>
+      <NodeID>17</NodeID>
+      <NodeAliasPath>/examples/masonry-grid/normal</NodeAliasPath>
+      <NodeName>normal</NodeName>
+      <NodeAlias>normal</NodeAlias>
+      <NodeClassID>5351</NodeClassID>
+      <NodeParentID>6</NodeParentID>
+      <NodeLevel>3</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>9eb795b1-261c-4f63-b82f-6e553c9ff5df</NodeGUID>
+      <NodeOrder>3</NodeOrder>
+      <NodeInheritPageLevels>/</NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeInheritPageTemplate>false</NodeInheritPageTemplate>
+      <NodeHasChildren>false</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>17</NodeOriginalNodeID>
+      <NodeIsContentOnly>true</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>17</DocumentID>
+      <DocumentName>normal</DocumentName>
+      <DocumentNamePath>/examples/masonry grid/normal</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-17T09:11:27.7756825+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>7</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-08-10T10:38:56.2732314+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>17</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>6de7f755-66ab-4679-bdc9-3cdfea39f53d</DocumentGUID>
+      <DocumentWorkflowCycleGUID>9da7d65f-5f9a-40db-85bd-3947bc6eae75</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>Pods.GridItem</ClassName>
+      <ClassDisplayName>Pods Grid Item</ClassDisplayName>
+    </pods.griditem>
+    <pods.griditem>
+      <GridItemID>8</GridItemID>
+      <Text>wide</Text>
+      <Image>~/pods/media/Default/wide-562x349.png?ext=.png</Image>
+      <Size>wide</Size>
+      <TargetType>content</TargetType>
+      <TargetUrl>#</TargetUrl>
+      <TargetContent>2d0b24da-1839-421f-a9ab-a519b0ae4e4c</TargetContent>
+      <NodeID>18</NodeID>
+      <NodeAliasPath>/examples/masonry-grid/wide</NodeAliasPath>
+      <NodeName>wide</NodeName>
+      <NodeAlias>wide</NodeAlias>
+      <NodeClassID>5351</NodeClassID>
+      <NodeParentID>6</NodeParentID>
+      <NodeLevel>3</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>55547947-b45f-4f64-928b-dbdf8d5d040a</NodeGUID>
+      <NodeOrder>4</NodeOrder>
+      <NodeInheritPageLevels>/</NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeInheritPageTemplate>false</NodeInheritPageTemplate>
+      <NodeHasChildren>false</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>18</NodeOriginalNodeID>
+      <NodeIsContentOnly>true</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>18</DocumentID>
+      <DocumentName>wide</DocumentName>
+      <DocumentNamePath>/examples/masonry grid/wide</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-17T09:11:37.2521869+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>8</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-08-10T10:54:11.5083401+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>18</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>c4e3933e-1cd7-4b35-98d5-c552d16a8d8e</DocumentGUID>
+      <DocumentWorkflowCycleGUID>fbf42464-b380-4a35-8dd7-ecf9a5c63311</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>Pods.GridItem</ClassName>
+      <ClassDisplayName>Pods Grid Item</ClassDisplayName>
+    </pods.griditem>
+    <pods.siteconfigurations>
+      <SiteMenuTheme>dark-menu</SiteMenuTheme>
+      <SiteConfigurationsID>1</SiteConfigurationsID>
+      <SiteTheme>2</SiteTheme>
+      <HasFooter>true</HasFooter>
+      <GoogleAnalyticsTag>&lt;script&gt;
+
+// your GA script should go here
+
+&lt;/script&gt;
+</GoogleAnalyticsTag>
+      <NodeID>5</NodeID>
+      <NodeAliasPath>/Site-Configuration</NodeAliasPath>
+      <NodeName>Site Configuration</NodeName>
+      <NodeAlias>Site-Configuration</NodeAlias>
+      <NodeClassID>5348</NodeClassID>
+      <NodeParentID>1</NodeParentID>
+      <NodeLevel>1</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>6c2e1a01-b966-4b45-8282-bac83480b25c</NodeGUID>
+      <NodeOrder>4</NodeOrder>
+      <NodeInheritPageLevels>/</NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeInheritPageTemplate>false</NodeInheritPageTemplate>
+      <NodeHasChildren>false</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>5</NodeOriginalNodeID>
+      <NodeIsContentOnly>true</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>5</DocumentID>
+      <DocumentName>Site Configuration</DocumentName>
+      <DocumentNamePath>/Site Configuration</DocumentNamePath>
+      <DocumentModifiedWhen>2017-01-18T23:05:44.5770559+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>1</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-07-18T12:59:02.3861884+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>5</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>e60dd395-aa14-4c5a-8d84-f43716859840</DocumentGUID>
+      <DocumentWorkflowCycleGUID>fb119707-4fda-4ba6-8eb2-2524107ead44</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>Pods.SiteConfigurations</ClassName>
+      <ClassDisplayName>Pods Site Configuration</ClassDisplayName>
+    </pods.siteconfigurations>
+    <pods.slidecontainer>
+      <NodeID>14</NodeID>
+      <NodeAliasPath>/home/Homepage-Slider</NodeAliasPath>
+      <NodeName>Homepage Slider</NodeName>
+      <NodeAlias>Homepage-Slider</NodeAlias>
+      <NodeClassID>5339</NodeClassID>
+      <NodeParentID>3</NodeParentID>
+      <NodeLevel>2</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>dfa37dfe-2a85-4811-a6a2-69712d461633</NodeGUID>
+      <NodeOrder>1</NodeOrder>
+      <NodeInheritPageLevels></NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeHasChildren>true</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>14</NodeOriginalNodeID>
+      <NodeIsContentOnly>false</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>14</DocumentID>
+      <DocumentName>Homepage Slider</DocumentName>
+      <DocumentNamePath>/home/Homepage Slider</DocumentNamePath>
+      <DocumentModifiedWhen>2016-07-22T13:13:28.9159459+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-07-22T13:13:28.9159459+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>14</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>170d8764-9c4b-4810-afcc-6e9a4f0d4f16</DocumentGUID>
+      <DocumentWorkflowCycleGUID>ea9487c5-b155-4d77-9d97-a2764589daf2</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>Pods.SlideContainer</ClassName>
+      <ClassDisplayName>Pods Slide Container</ClassDisplayName>
+    </pods.slidecontainer>
+    <pods.slideitem>
+      <SlideItemID>1</SlideItemID>
+      <TextContent>&lt;h1 class="lg"&gt;Pods&lt;/h1&gt;
+
+&lt;h3&gt;A free Kentico theme built with re-usable widgets&lt;/h3&gt;
+</TextContent>
+      <BackgroundImage>~/pods/media/Default/design.jpg?ext=.jpg</BackgroundImage>
+      <HorizontalTextAlignment>text-center</HorizontalTextAlignment>
+      <VerticalTextAlignment>vcenter</VerticalTextAlignment>
+      <NodeID>19</NodeID>
+      <NodeAliasPath>/home/Homepage-Slider/Lorem-ipsum</NodeAliasPath>
+      <NodeName>Slider 2</NodeName>
+      <NodeAlias>Lorem-ipsum</NodeAlias>
+      <NodeClassID>5343</NodeClassID>
+      <NodeParentID>14</NodeParentID>
+      <NodeLevel>3</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>bbfbe6c7-f149-4ac7-8e67-5505a8565589</NodeGUID>
+      <NodeOrder>2</NodeOrder>
+      <NodeInheritPageLevels>/</NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeInheritPageTemplate>false</NodeInheritPageTemplate>
+      <NodeHasChildren>false</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>19</NodeOriginalNodeID>
+      <NodeIsContentOnly>true</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>19</DocumentID>
+      <DocumentName>Slider 2</DocumentName>
+      <DocumentNamePath>/home/Homepage Slider/Slider 2</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-17T12:41:11.532154+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>1</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-07-22T13:14:24.3988338+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>19</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>dcb0f3fb-9fab-4560-bc0f-5ebf13552eb2</DocumentGUID>
+      <DocumentWorkflowCycleGUID>7b8e6f60-ae15-42ad-9652-a667b965dd27</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>Pods.SlideItem</ClassName>
+      <ClassDisplayName>Pods Slide Item</ClassDisplayName>
+    </pods.slideitem>
+    <pods.slideitem>
+      <SlideItemID>2</SlideItemID>
+      <TextContent>&lt;h1 class="lg"&gt;Pods&lt;/h1&gt;
+
+&lt;h3&gt;A free Kentico theme built with re-usable widgets&lt;/h3&gt;
+</TextContent>
+      <BackgroundImage>~/pods/media/Default/discovery.jpg?ext=.jpg</BackgroundImage>
+      <HorizontalTextAlignment>text-center</HorizontalTextAlignment>
+      <VerticalTextAlignment>vcenter</VerticalTextAlignment>
+      <NodeID>20</NodeID>
+      <NodeAliasPath>/home/Homepage-Slider/Dolor-sit-amet</NodeAliasPath>
+      <NodeName>Slider</NodeName>
+      <NodeAlias>Dolor-sit-amet</NodeAlias>
+      <NodeClassID>5343</NodeClassID>
+      <NodeParentID>14</NodeParentID>
+      <NodeLevel>3</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>c001e6ce-0c1f-44c3-b521-ee17a499e98f</NodeGUID>
+      <NodeOrder>1</NodeOrder>
+      <NodeInheritPageLevels>/</NodeInheritPageLevels>
+      <NodeOwner>53</NodeOwner>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeInheritPageTemplate>false</NodeInheritPageTemplate>
+      <NodeHasChildren>false</NodeHasChildren>
+      <NodeHasLinks>false</NodeHasLinks>
+      <NodeOriginalNodeID>20</NodeOriginalNodeID>
+      <NodeIsContentOnly>true</NodeIsContentOnly>
+      <NodeIsACLOwner>false</NodeIsACLOwner>
+      <DocumentID>20</DocumentID>
+      <DocumentName>Slider</DocumentName>
+      <DocumentNamePath>/home/Homepage Slider/Slider</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-17T12:40:47.1938987+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentForeignKeyValue>2</DocumentForeignKeyValue>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2016-07-22T13:14:52.082198+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>20</DocumentNodeID>
+      <DocumentShowInSiteMap>true</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>false</DocumentMenuItemHideInNavigation>
+      <DocumentUseNamePathForUrlPath>false</DocumentUseNamePathForUrlPath>
+      <DocumentContent></DocumentContent>
+      <DocumentWildcardRule></DocumentWildcardRule>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>96b49e57-85a3-47ab-9617-43370b300998</DocumentGUID>
+      <DocumentWorkflowCycleGUID>b4836487-391a-4bfe-81b6-018d95950ac8</DocumentWorkflowCycleGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>true</DocumentInheritsStylesheet>
+      <ClassName>Pods.SlideItem</ClassName>
+      <ClassDisplayName>Pods Slide Item</ClassDisplayName>
+    </pods.slideitem>
+    <cms.root>
+      <NodeID>1</NodeID>
+      <NodeAliasPath>/</NodeAliasPath>
+      <NodeName></NodeName>
+      <NodeAlias></NodeAlias>
+      <NodeClassID>1095</NodeClassID>
+      <NodeLevel>0</NodeLevel>
+      <NodeACLID>1</NodeACLID>
+      <NodeSiteID>1</NodeSiteID>
+      <NodeGUID>f26073a6-d798-413d-a812-081cc834b36d</NodeGUID>
+      <NodeOrder>33</NodeOrder>
+      <NodeDocType>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;</NodeDocType>
+      <NodeHeadTags></NodeHeadTags>
+      <NodeBodyElementAttributes></NodeBodyElementAttributes>
+      <NodeInheritPageLevels></NodeInheritPageLevels>
+      <NodeCustomData></NodeCustomData>
+      <NodeTemplateID>25734</NodeTemplateID>
+      <NodeTemplateForAllCultures>true</NodeTemplateForAllCultures>
+      <NodeInheritPageTemplate>false</NodeInheritPageTemplate>
+      <NodeHasChildren>true</NodeHasChildren>
+      <NodeOriginalNodeID>1</NodeOriginalNodeID>
+      <NodeIsContentOnly>false</NodeIsContentOnly>
+      <NodeIsACLOwner>true</NodeIsACLOwner>
+      <DocumentID>1</DocumentID>
+      <DocumentName></DocumentName>
+      <DocumentNamePath>/</DocumentNamePath>
+      <DocumentModifiedWhen>2016-08-17T16:10:25.7291954+07:00</DocumentModifiedWhen>
+      <DocumentModifiedByUserID>53</DocumentModifiedByUserID>
+      <DocumentCreatedByUserID>53</DocumentCreatedByUserID>
+      <DocumentCreatedWhen>2015-08-06T15:46:19.187+07:00</DocumentCreatedWhen>
+      <DocumentUrlPath></DocumentUrlPath>
+      <DocumentCulture>en-US</DocumentCulture>
+      <DocumentNodeID>1</DocumentNodeID>
+      <DocumentShowInSiteMap>false</DocumentShowInSiteMap>
+      <DocumentMenuItemHideInNavigation>true</DocumentMenuItemHideInNavigation>
+      <DocumentMenuCaption></DocumentMenuCaption>
+      <DocumentMenuStyle></DocumentMenuStyle>
+      <DocumentMenuItemImage></DocumentMenuItemImage>
+      <DocumentMenuItemLeftImage></DocumentMenuItemLeftImage>
+      <DocumentMenuItemRightImage></DocumentMenuItemRightImage>
+      <DocumentPageTemplateID>25734</DocumentPageTemplateID>
+      <DocumentMenuJavascript></DocumentMenuJavascript>
+      <DocumentMenuRedirectUrl></DocumentMenuRedirectUrl>
+      <DocumentContent>&lt;content&gt;&lt;webpart id="editableimage2;cc88cc59-43bd-4a18-9a99-ec6af94302a0"&gt;&lt;![CDATA[&lt;image&gt;
+  &lt;property name="imagepath"&gt;~/getattachment/pods-black.png.aspx?lang=en-US&lt;/property&gt;
+&lt;/image&gt;]]&gt;&lt;/webpart&gt;&lt;webpart id="editableimage3;edc91cb1-7422-45ce-a9ff-97d493c1d737"&gt;&lt;![CDATA[&lt;image&gt;
+  &lt;property name="imagepath"&gt;~/getattachment/pods-white.png.aspx?lang=en-US&lt;/property&gt;
+&lt;/image&gt;]]&gt;&lt;/webpart&gt;&lt;webpart id="editabletext;95415c1c-e277-4756-b355-9d574e9c8bf4"&gt;&lt;![CDATA[&lt;!-- Contact info--&gt;
+&lt;div class="col-md-4"&gt;
+&lt;p&gt;+49 (0) 30 8876 4997&lt;br /&gt;
++44 (0) 203 239 2231&lt;br /&gt;
+hello@squareball.co&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="col-md-2"&gt;
+&lt;p&gt;Squareball Digital&lt;br /&gt;
+Prinzessinnenstr 19&lt;br /&gt;
+Berlin&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="col-md-6 text-right"&gt;&lt;!-- Social links--&gt;
+&lt;ul class="social"&gt;
+	&lt;li&gt;&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Copyright message--&gt;
+
+&lt;div class="copyright"&gt;2016 &amp;copy; built by Squareball Digital. &lt;a class="smooth" href="http://kentico.com" rel="nofollow" target="_blank"&gt;Powered by Kentico&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+]]&gt;&lt;/webpart&gt;&lt;/content&gt;</DocumentContent>
+      <DocumentMenuClass></DocumentMenuClass>
+      <DocumentMenuStyleHighlighted></DocumentMenuStyleHighlighted>
+      <DocumentMenuClassHighlighted></DocumentMenuClassHighlighted>
+      <DocumentMenuItemImageHighlighted></DocumentMenuItemImageHighlighted>
+      <DocumentMenuItemLeftImageHighlighted></DocumentMenuItemLeftImageHighlighted>
+      <DocumentMenuItemRightImageHighlighted></DocumentMenuItemRightImageHighlighted>
+      <DocumentMenuItemInactive>false</DocumentMenuItemInactive>
+      <DocumentCustomData></DocumentCustomData>
+      <DocumentTags></DocumentTags>
+      <DocumentWebParts></DocumentWebParts>
+      <DocumentPriority>0</DocumentPriority>
+      <DocumentIsArchived>false</DocumentIsArchived>
+      <DocumentGUID>1b95beb6-f82c-4caf-86a4-46673bd8e5b3</DocumentGUID>
+      <DocumentIsWaitingForTranslation>false</DocumentIsWaitingForTranslation>
+      <DocumentCanBePublished>true</DocumentCanBePublished>
+      <DocumentInheritsStylesheet>false</DocumentInheritsStylesheet>
+      <ClassName>CMS.Root</ClassName>
+      <ClassDisplayName>Root</ClassDisplayName>
+    </cms.root>
+  </NewDataSet>
+</cms_document>

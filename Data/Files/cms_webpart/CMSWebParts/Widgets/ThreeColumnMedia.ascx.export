@@ -1,0 +1,12 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="ThreeColumnMedia.ascx.cs" Inherits="CMSWebParts_Widgets_ThreeColumnMedia" %>
+
+
+      <section>
+        <div class="container content intro">
+          <div class="row"> 
+              <div class="col-md-4"><asp:Literal ID="ltrLeft" runat="server" Mode="PassThrough"></asp:Literal></div>
+              <div class="col-md-4"><asp:Literal ID="ltrMiddle" runat="server" Mode="PassThrough"></asp:Literal></div>
+              <div class="col-md-4"><asp:Literal ID="ltrRight" runat="server" Mode="PassThrough"></asp:Literal></div>
+          </div>
+        </div>
+      </section>

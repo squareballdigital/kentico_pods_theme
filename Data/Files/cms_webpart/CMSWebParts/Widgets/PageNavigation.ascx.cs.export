@@ -1,0 +1,53 @@
+﻿
+using CMS.PortalEngine.Web.UI;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using CMS.DocumentEngine;
+
+public partial class CMSWebParts_Widgets_PageNavigation : CMSAbstractWebPart
+{
+    protected override void OnLoad(EventArgs e)
+    {
+        base.OnLoad(e);
+        SetupControl();
+    }
+
+    protected void SetupControl()
+    {
+        if (!StopProcessing)
+        {
+            var adjancentNodes = new List<CMS.DocumentEngine.TreeNode>();
+            var siblings = CurrentDocument.Parent.Children?.Select(n => n.NodeGUID)?.ToList() ?? new List<Guid>();
+
+            if (siblings.Count == 0) return;
+
+            var currentIndex = siblings.IndexOf(CurrentDocument.NodeGUID);
+
+            // Previous node
+            if (currentIndex == 0)
+            {
+                adjancentNodes.Add(CurrentDocument.Parent.Children[siblings.Count - 1]);
+            } else
+            {
+                adjancentNodes.Add(CurrentDocument.Parent.Children[currentIndex - 1]);
+            }
+
+            // Next node
+            if (currentIndex == siblings.Count - 1)
+            {
+                adjancentNodes.Add(CurrentDocument.Parent.Children[0]);
+            }
+            else
+            {
+                adjancentNodes.Add(CurrentDocument.Parent.Children[currentIndex + 1]);
+            }
+
+            rptPageNavigation.DataSource = adjancentNodes;
+            rptPageNavigation.DataBind();
+        }
+    }
+}

@@ -1,0 +1,10 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="GeneralText.ascx.cs" Inherits="CMSWebParts_Widgets_GeneralText" %>
+
+
+<section>
+    <div class="container intro">
+        <div class="row">
+            <asp:Literal ID="ltrTextContent" runat="server" Mode="PassThrough"></asp:Literal>
+        </div>
+    </div>
+</section>

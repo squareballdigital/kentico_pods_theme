@@ -1,0 +1,40 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="PageNavigation.ascx.cs" Inherits="CMSWebParts_Widgets_PageNavigation" %>
+
+      <section class="on-foot">
+        <div class="container">
+          <div class="row">
+                <asp:Repeater ID="rptPageNavigation" runat="server">
+                    <ItemTemplate>
+
+                        <div class="col-md-6">
+                            <a href='<%# Eval("NodeAliasPath") %>' class="previous-post">
+                                <div class="arrow">
+                                    <div class="ion-chevron-left"></div>
+                                </div>
+                                <div class="content">
+                                    <div class="title">Previous</div>
+                                    <div class="post-title"><%# Eval("NodeName") %>    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </ItemTemplate>
+                    <AlternatingItemTemplate>
+                        
+                        <div class="col-md-6">
+                            <a href='<%# Eval("NodeAliasPath") %>' class="next-post">
+                                <div class="content">
+                                    <div class="title">Next</div>
+                                    <div class="post-title"><%# Eval("NodeName") %>   </div>
+                                </div>
+                                <div class="arrow">
+                                    <div class="ion-chevron-right"></div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </AlternatingItemTemplate>
+                </asp:Repeater>
+          </div>
+        </div>
+      </section>

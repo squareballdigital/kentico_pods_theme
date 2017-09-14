@@ -1,0 +1,13 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="MP3Player.ascx.cs" Inherits="CMSWebParts_Widgets_MP3Player" %>
+
+<section>
+    <div class="container content">
+        <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <blockquote class="item">
+                <asp:Literal ID="ltrAudio" runat="server" Mode="PassThrough"></asp:Literal>
+            </blockquote>
+        </div>
+        </div>
+    </div>
+</section>

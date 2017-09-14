@@ -1,0 +1,50 @@
+﻿using CMS.Helpers;
+using CMS.PortalEngine.Web.UI;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class CMSWebParts_Widgets_HeroImageCenter : CMSAbstractWebPart
+{
+    public string TextContent
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("TextContent"), String.Empty);
+        }
+        set
+        {
+            SetValue("TextContent", value);
+        }
+    }
+
+    public string BackgroundImage
+    {
+        get
+        {
+            return ValidationHelper.GetString(GetValue("BackgroundImage"), String.Empty);
+        }
+        set
+        {
+            SetValue("BackgroundImage", value);
+        }
+    }
+
+    protected void SetupControl()
+    {
+        if (!StopProcessing)
+        {
+            ltrTextContent.Text = TextContent;
+            ltrBackgroundImage.Text = "<div style=\"background-image: url(" + BackgroundImage + ");\" class=\"bg \"></div>";
+        }
+    }
+
+    protected override void OnLoad(EventArgs e)
+    {
+        base.OnLoad(e);
+        SetupControl();
+    }
+}
